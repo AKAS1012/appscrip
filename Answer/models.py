@@ -37,4 +37,4 @@ class Color(models.Model):
 	color = MultiSelectField(max_length=100, choices=color_name)
 
 	def __str__(self):
-		return str(self.color)
+		return self.color
